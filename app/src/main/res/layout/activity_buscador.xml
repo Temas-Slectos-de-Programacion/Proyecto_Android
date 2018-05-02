@@ -6,4 +6,99 @@
     android:layout_height="match_parent"
     tools:context=".Buscador">
 
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/arriba"
+        app:layout_constraintBottom_toTopOf="@id/btnDown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"/>
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/abajo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUp"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/izquierda"
+        app:layout_constraintBottom_toTopOf="@id/btnDown"
+        app:layout_constraintEnd_toStartOf="@id/btnRight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnUp"
+        app:layout_constraintVertical_bias="0.09"/>
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/derecha"
+        app:layout_constraintBottom_toTopOf="@id/btnDown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnLeft"
+        app:layout_constraintTop_toBottomOf="@id/btnUp"
+        app:layout_constraintVertical_bias="0.09"/>
+
+    <include
+        android:id="@+id/barra_buscador"
+        layout="@layout/barra_buscador"
+        ></include>
+
+    <Switch
+        android:id="@+id/swtSensor"
+        android:onClick="onHabilitarBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/swt_buscador"
+        app:layout_constraintBottom_toTopOf="@+id/btnUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/barra_buscador" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/buscador_msg"
+        app:layout_constraintBottom_toTopOf="@id/btnUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"/>
+
 </android.support.constraint.ConstraintLayout>

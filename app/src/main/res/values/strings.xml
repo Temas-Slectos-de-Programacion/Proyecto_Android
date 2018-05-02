@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Proyecto_Aplicacion</string>
+    <string name="swt_buscador">Sensor</string>
+    <string name="buscador_msg">Controles</string>
+    <string name="arriba">Up</string>
+    <string name="abajo">Down</string>
+    <string name="izquierda">Left</string>
+    <string name="derecha">Right</string>
+    <string name="acercade">Esta aplicación tiene un diseño sencillo para el control de dispositivos externos mediante bluetoot</string>
 </resources>
