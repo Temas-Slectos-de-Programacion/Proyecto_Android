@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Jugador" />
-        <activity android:name=".Seleccionar_personajes"></activity>
+        <activity android:name=".Seleccionar_personajes" />
     </application>
 
 </manifest>
