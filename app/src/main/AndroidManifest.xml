@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Buscador" />
-        <activity android:name=".AcercaDeDialogo"></activity>
+        <activity android:name=".AcercaDeDialogo" />
+        <activity android:name=".EnviarPregunta" />
+        <activity android:name=".Adivina"></activity>
     </application>
 
 </manifest>

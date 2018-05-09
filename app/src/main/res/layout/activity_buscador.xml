@@ -69,7 +69,11 @@
     <include
         android:id="@+id/barra_buscador"
         layout="@layout/barra_buscador"
-        ></include>
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></include>
 
     <Switch
         android:id="@+id/swtSensor"
@@ -89,16 +93,34 @@
         app:layout_constraintVertical_bias="0.317" />
 
     <TextView
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="130dp"
         android:text="@string/buscador_msg"
         app:layout_constraintBottom_toTopOf="@id/btnUp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/pregRecibida"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/buscador_msg"
+        app:layout_constraintBottom_toTopOf="@+id/btnUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barra_buscador"
+        app:layout_constraintVertical_bias="0.634" />
 
 </android.support.constraint.ConstraintLayout>

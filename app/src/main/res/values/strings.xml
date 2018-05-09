@@ -2,11 +2,17 @@
     <string name="app_name">Proyecto_Aplicacion</string>
     <string name="swt_buscador">Sensor Bluetooth</string>
     <string name="buscador_msg">Pregunta </string>
-    <string name="arriba">No lo sé</string>
+    <string name="arriba">No aplica</string>
     <string name="abajo">Intentar Adivinar</string>
     <string name="izquierda">Sí</string>
     <string name="derecha">No</string>
     <string name="pregunta_i">¿Es femenino?</string>
-    <string name="var_pregunta_t1">pregunta</string>
+    <string name="var_pregunta_t1">preguntaS</string>
+    <string name="var_pregunta_t2">preguntaR</string>
     <string name="acercade">Esta aplicación tiene un diseño sencillo para el control de dispositivos externos mediante bluetoot</string>
+    <string name="btnpregunta_tex">Enviar pregunta</string>
+    <string name="prev_pregunta">Escribe tu pregunta para el oponente</string>
+    <string name="tex_edit_pregunta">Procura que sólo pueda responderse con sí o no</string>
+    <string name="intento_adivina">Intenta adivinar el personaje del otro jugador</string>
+    <string name="btn_intenadivina">Envía tu intento</string>
 </resources>

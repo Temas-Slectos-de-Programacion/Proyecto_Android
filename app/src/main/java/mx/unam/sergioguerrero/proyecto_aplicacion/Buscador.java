@@ -27,7 +27,9 @@ public class Buscador extends AppCompatActivity {
     Button btnDown;
     Button btnLeft;
     Button btnRight;
-    TextView txtQ;
+    TextView txtQS;
+    TextView txtQR;
+    int intentosRealizados = 0;
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int CODIGO_SOLICITUD_HABILITAR_BLUETOOTH = 0;
     private static final int CODIGO_SOLICITUD_PERMISO = 1;
@@ -49,11 +51,21 @@ public class Buscador extends AppCompatActivity {
         btnLeft.setOnClickListener(OnClickIzquierda);
         btnRight.setOnClickListener(OnClickDerecha);
 
+        //Desactivar primero el botón antes de tres intentos
+
+        if(intentosRealizados > 3){
+            btnDown.isEnabled();
+        }
+
         sensorBT.setOnLongClickListener(OnLongClickSwitch);
 
-        Bundle parametros = this.getIntent().getExtras();//getResources Extraer la cadena del nombre de la variable
-        String pregunta = parametros.getString(getResources().getString(R.string.var_pregunta_t1));
-        txtQ.setText(txtQ.getText().toString() + " " + pregunta);
+        Bundle parametrosS = this.getIntent().getExtras();//getResources Extraer la cadena del nombre de la variable
+        String preguntaS = parametrosS.getString(getResources().getString(R.string.var_pregunta_t1));
+        txtQS.setText(txtQS.getText().toString() + " " + preguntaS);
+
+        Bundle parametrosR = this.getIntent().getExtras();//getResources Extraer la cadena del nombre de la variable
+        String preguntaR = parametrosR.getString(getResources().getString(R.string.var_pregunta_t2));
+        txtQR.setText(txtQR.getText().toString() + " " + preguntaR);
 
         //setSupportActionBar(barrbusq);
     }
@@ -90,24 +102,35 @@ public class Buscador extends AppCompatActivity {
     public View.OnClickListener OnClickSubir = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            Intent intentdatos = new Intent(getApplicationContext(),EnviarPregunta.class);
+            startActivity(intentdatos);
+            intentosRealizados = intentosRealizados + 1;
         }
     };
 
     public View.OnClickListener OnClickBajar = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            Intent intentdatos = new Intent(getApplicationContext(),Adivina.class);
+            startActivity(intentdatos);
         }
     };
 
     public View.OnClickListener OnClickIzquierda = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            Intent intentdatos = new Intent(getApplicationContext(),EnviarPregunta.class);
+            startActivity(intentdatos);
+            intentosRealizados = intentosRealizados + 1;
         }
     };
 
     public View.OnClickListener OnClickDerecha = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            Intent intentdatos = new Intent(getApplicationContext(),EnviarPregunta.class);
+            startActivity(intentdatos);
+            intentosRealizados = intentosRealizados + 1;
         }
     };
 
