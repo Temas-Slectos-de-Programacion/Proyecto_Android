@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="dim_boton_width">250dp</dimen>
+    <dimen name="dim_boton_heigh">48dp</dimen>
+    <dimen name="dim_text">30sp</dimen>
+</resources>

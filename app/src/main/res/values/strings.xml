@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Proyecto_Aplicacion</string>
+    <string name="app_name">Adivina quién</string>
+    <string name="texto_boton_iniciar_juego">Iniciar juego</string>
+    <string name="texto_boton_ver_personajes">Ver Personajes</string>
     <string name="swt_buscador">Sensor Bluetooth</string>
     <string name="buscador_msg">Pregunta </string>
     <string name="arriba">No lo sé</string>
@@ -9,4 +11,7 @@
     <string name="pregunta_i">¿Es femenino?</string>
     <string name="var_pregunta_t1">pregunta</string>
     <string name="acercade">Esta aplicación tiene un diseño sencillo para el control de dispositivos externos mediante bluetoot</string>
+    <string name="bienvenido">Bienvenido al juego</string>
+    <string name="modo_extremo">Modo EXTREMO</string>
+    <string name="crees_saberlo_todo">¿Crees saberlo todo?</string>
 </resources>
