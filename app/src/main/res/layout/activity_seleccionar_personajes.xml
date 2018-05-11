@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Seleccionar_personajes"
-    android:background="@color/color2"
+    android:background="@color/blanco"
 
     >
 
@@ -17,20 +17,19 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="278dp"
+        android:layout_width="345dp"
         android:layout_height="51dp"
         android:layout_marginBottom="8dp"
+
+
         android:layout_marginEnd="8dp"
-
-
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="cursive"
-        android:text="Selecciona tus persoanes:"
-        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:text="Selecciona tus personajes:"
+        android:textSize="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018" />
@@ -43,7 +42,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.889"
@@ -98,5 +97,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.279"
         app:srcCompat="@drawable/spiderman1" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="114dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/venom1" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="118dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/capitanamerica1" />
 
 </android.support.constraint.ConstraintLayout>
