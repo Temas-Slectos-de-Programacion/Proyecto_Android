@@ -48,7 +48,7 @@ public class Buscador extends AppCompatActivity {
 
         //sensorBT.setOnLongClickListener(OnLongClickSwitch);
 
-        º
+
 
         //setSupportActionBar(barrbusq);
     }
