@@ -45,6 +45,7 @@ public class Selec_personajes extends AppCompatActivity {
             }
         });
 
+
         spider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,7 +60,7 @@ public class Selec_personajes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String personaje="spider";
+                String personaje="superman";
 
 
             }
@@ -69,14 +70,14 @@ public class Selec_personajes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String personaje="spider";
+                String personaje="venom";
 
 
             }
         });
 
-
     }
+
 
 
 }
