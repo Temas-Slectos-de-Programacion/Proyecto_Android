@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
@@ -26,6 +27,7 @@ public class Buscador extends AppCompatActivity {
     Button btnDown;
     Button btnLeft;
     Button btnRight;
+    TextView txtQ;
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int CODIGO_SOLICITUD_HABILITAR_BLUETOOTH = 0;
     private static final int CODIGO_SOLICITUD_PERMISO = 1;
@@ -48,6 +50,10 @@ public class Buscador extends AppCompatActivity {
         btnRight.setOnClickListener(OnClickDerecha);
 
         sensorBT.setOnLongClickListener(OnLongClickSwitch);
+
+        Bundle parametros = this.getIntent().getExtras();//getResources Extraer la cadena del nombre de la variable
+        String pregunta = parametros.getString(getResources().getString(R.string.var_pregunta_t1));
+        txtQ.setText(txtQ.getText().toString() + " " + pregunta);
 
         //setSupportActionBar(barrbusq);
     }
