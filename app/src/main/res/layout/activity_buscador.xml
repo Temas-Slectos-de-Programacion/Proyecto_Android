@@ -67,26 +67,10 @@
         app:layout_constraintVertical_bias="0.09"/>
 
     <include
-        android:id="@+id/barra_buscador"
-        layout="@layout/barra_buscador"
-        ></include>
+    android:id="@+id/barra_buscador"
+    layout="@layout/barra_buscador"
+    ></include>
 
-    <Switch
-        android:id="@+id/swtSensor"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="5dp"
-        android:onClick="onHabilitarBluetooth"
-        android:text="@string/swt_buscador"
-        app:layout_constraintBottom_toTopOf="@+id/btnUp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.963"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/barra_buscador"
-        app:layout_constraintVertical_bias="0.317" />
 
     <TextView
         android:layout_width="100dp"

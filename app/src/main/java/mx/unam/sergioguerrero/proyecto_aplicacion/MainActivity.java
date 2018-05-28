@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     public View.OnClickListener onClickBuscador = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intentInijuego = new Intent(getApplicationContext(),Buscador.class);
+            Intent intentInijuego = new Intent(getApplicationContext(),Selec_personajes.class);
             startActivity(intentInijuego);
         }
     };
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     public View.OnClickListener onClickModoExtremo = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intentModoExtremo = new Intent(getApplicationContext(), AcercaDeDialogo.class);
+            Intent intentModoExtremo = new Intent(getApplicationContext(), Buscador.class);
             startActivity(intentModoExtremo);
         }
     };

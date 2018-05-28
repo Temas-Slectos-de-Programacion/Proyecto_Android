@@ -19,6 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+
     <ImageButton
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -165,8 +166,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.021" />
-
-
-
 
 </android.support.constraint.ConstraintLayout>

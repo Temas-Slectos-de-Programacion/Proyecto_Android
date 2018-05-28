@@ -5,13 +5,23 @@
     <string name="swt_buscador">Sensor Bluetooth</string>
     <string name="buscador_msg">Pregunta </string>
     <string name="arriba">No lo sé</string>
+
     <string name="abajo">Intentar Adivinar</string>
     <string name="izquierda">Sí</string>
     <string name="derecha">No</string>
     <string name="pregunta_i">¿Es femenino?</string>
     <string name="var_pregunta_t1">pregunta</string>
+    <string name="var_usuario_extra">usuario</string>
     <string name="acercade">Esta aplicación tiene un diseño sencillo para el control de dispositivos externos mediante bluetoot</string>
     <string name="bienvenido">Bienvenido al juego</string>
     <string name="modo_extremo">Modo EXTREMO</string>
     <string name="crees_saberlo_todo">¿Crees saberlo todo?</string>
+    <string name="personaje">personaje</string>
+    <string name="spider">Spiderman</string>
+    <string name="superman">Superman</string>
+    <string name="venom">Venom</string>
+    <string name="ironman">Ironman</string>
+    <string name="capame">Captain America</string>
+    <string name="deadpool">Deadpool</string>
+
 </resources>

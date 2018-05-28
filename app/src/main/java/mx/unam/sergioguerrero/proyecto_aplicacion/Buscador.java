@@ -34,8 +34,6 @@ public class Buscador extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buscador);
 
-        //barrbusq = (Toolbar) findViewById(R.id.barra_buscador);
-        //sensorBT = (Switch) findViewById(R.id.swtSensor);
         btnUp = (Button) findViewById(R.id.btnUp);
         btnDown = (Button) findViewById(R.id.btnDown);
         btnLeft = (Button) findViewById(R.id.btnLeft);
