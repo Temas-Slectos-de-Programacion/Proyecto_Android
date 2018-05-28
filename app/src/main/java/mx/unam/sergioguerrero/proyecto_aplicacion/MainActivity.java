@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnIniciaJuego;
     Button btnVerPersonajes;
+    Button btnModoExtremo;
     ImageView imgagen_v;
 
     @Override
@@ -24,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
         btnVerPersonajes = (Button)findViewById(R.id.btnVerPersonajes);
         btnVerPersonajes.setOnClickListener(onClickAcercaDD);
+
+        btnModoExtremo = (Button) findViewById(R.id.btnModoExtremo);
+        btnModoExtremo.setOnClickListener(onClickModoExtremo);
+
+
     }
 
     public View.OnClickListener onClickBuscador = new View.OnClickListener() {
@@ -39,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             Intent intentAcercaDD = new Intent(getApplicationContext(), AcercaDeDialogo.class);
             startActivity(intentAcercaDD);
+        }
+    };
+
+    public View.OnClickListener onClickModoExtremo = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intentModoExtremo = new Intent(getApplicationContext(), AcercaDeDialogo.class);
+            startActivity(intentModoExtremo);
         }
     };
 
