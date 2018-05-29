@@ -14,7 +14,7 @@ public class Selec_personajes extends AppCompatActivity {
     Button Iniciar;
     EditText edtUsuario;
     TextView select;
-    ImageButton spider,superman,deadpool,venom,capame,ironman;
+    ImageButton spider,superman,deadpool,venom,capame,ironman,wol,goku;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,24 +25,33 @@ public class Selec_personajes extends AppCompatActivity {
         Iniciar=(Button)findViewById(R.id.btniniciar);
         edtUsuario=(EditText)findViewById(R.id.Nombre_jugador);
 
+        //PERSONAJES PARA SELECCIONAR
+
         deadpool=(ImageButton)findViewById(R.id.imgdeadpool);
         spider=(ImageButton)findViewById(R.id.imgspider);
         superman=(ImageButton)findViewById(R.id.imgsuperman);
         venom=(ImageButton)findViewById(R.id.imgvenom);
         capame=(ImageButton)findViewById(R.id.imgcapitan);
         ironman=(ImageButton)findViewById(R.id.imgironman);
+        wol=(ImageButton)findViewById(R.id.imgwol);
+        goku=(ImageButton)findViewById(R.id.imggoku);
+
+
+
 
         Iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intentIniciarSesion = new Intent(getApplicationContext(), AcercaDeDialogo.class);
+                Intent intentIniciarSesion = new Intent(getApplicationContext(), Tablero.class);
+
+              intentIniciarSesion.putExtra("usuario",edtUsuario.getText().toString());
+
+                intentIniciarSesion.putExtra("personaje",select.getText().toString());
                 startActivity(intentIniciarSesion);
-                //String Usuario=edtUsuario.getText().toString();
-                //String personajeSeleccionado=select.getText().toString();
-               //Usuario.compareTo("usuario");
-               intentIniciarSesion.putExtra("usuario",edtUsuario.getText().toString());
-               intentIniciarSesion.putExtra("personaje",select.getText().toString());
+
+
+
             }
         });
 
@@ -102,6 +111,26 @@ public class Selec_personajes extends AppCompatActivity {
 
             }
         });
+
+        goku.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                select.setText(R.string.goku);
+
+            }
+        });
+
+        wol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                select.setText(R.string.wol);
+
+            }
+        });
+
+
     }
 
 

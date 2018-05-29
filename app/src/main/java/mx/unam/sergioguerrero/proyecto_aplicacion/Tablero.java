@@ -10,11 +10,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import static mx.unam.sergioguerrero.proyecto_aplicacion.R.drawable.boton_ver_personajes;
+import static mx.unam.sergioguerrero.proyecto_aplicacion.R.drawable.goku;
 import static mx.unam.sergioguerrero.proyecto_aplicacion.R.drawable.spiderman1;
 import static mx.unam.sergioguerrero.proyecto_aplicacion.R.drawable.tache;
 
 public class Tablero extends AppCompatActivity {
-    ImageButton spider,superman,deadpool,venom,capame,ironman;
+    ImageButton spider,superman,deadpool,venom,capame,ironman,goku,wol;
     ImageView personaje;
     TextView txtusuario;
     @Override
@@ -22,12 +23,13 @@ public class Tablero extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tablero);
 
-        Bundle parametros = this.getIntent().getExtras();
-        String usuario = parametros.getString(getResources().getString(R.string.var_usuario_extra));
-        String seleccionpersonaje=parametros.getString(getResources().getString(R.string.personaje));
 
-        txtusuario.setText(txtusuario.getText().toString()+""+usuario);
+        Bundle datorecibido=getIntent().getExtras();
+
+            String usuario = datorecibido.getString("usuario");
         txtusuario = (TextView) findViewById(R.id.textUsuario);
+        txtusuario.setText(usuario);
+        String seleccionpersonaje = datorecibido.getString("personaje");
 
         spider=(ImageButton)findViewById(R.id.imgspider);
         superman=(ImageButton)findViewById(R.id.imgsuperman);
@@ -36,32 +38,51 @@ public class Tablero extends AppCompatActivity {
         capame=(ImageButton)findViewById(R.id.imgcapitan);
         ironman=(ImageButton)findViewById(R.id.imgironman);
         personaje=(ImageView)findViewById(R.id.imagenPersonaje);
+        wol=(ImageButton)findViewById(R.id.imgwol);
+        goku=(ImageButton)findViewById(R.id.imggoku);
 
         switch (seleccionpersonaje) {
             case "Spiderman" :
             {
                 personaje.setImageResource(R.drawable.spiderman1);
+            break;
             }
             case "Superman":
             {
                 personaje.setImageResource(R.drawable.superman1);
+            break;
             }
             case "Ironman":
             {
                 personaje.setImageResource(R.drawable.ironman);
+                break;
             }
             case "Captain America":
             {
-
+                personaje.setImageResource(R.drawable.capitanamerica1);
+                break;
             }
             case "Deadpool":
             {
                 personaje.setImageResource(R.drawable.deadpool1);
+                break;
             }
             case "Venom":
             {
-                personaje.setImageResource(R.drawable.venom);
+                personaje.setImageResource(R.drawable.venom1);
+                break;
             }
+
+           case "Goku":
+           {
+               personaje.setImageResource(R.drawable.goku);
+               break;
+           }
+           case "Wol":
+           {
+               personaje.setImageResource(R.drawable.wolverine);
+               break;
+           }
 
 
         }
@@ -124,6 +145,25 @@ public class Tablero extends AppCompatActivity {
 
             }
         });
+        goku.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                goku.setImageResource(R.drawable.tache);
+
+
+            }
+        });
+        wol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                wol.setImageResource(R.drawable.tache);
+
+
+            }
+        });
+
 
     }
 
