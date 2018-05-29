@@ -7,36 +7,40 @@
     tools:context=".AcercaDeDialogo">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
+        android:id="@+id/txtdescripcion"
+        android:layout_width="366dp"
+        android:layout_height="194dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/acercade"
+        android:text="       "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
     <ImageButton
-        android:layout_width="120dp"
+        android:id="@+id/ibtnbrady"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/brady"
-        android:id="@+id/ibtnbrady"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.599" />
 
     <ImageButton
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -51,7 +55,7 @@
         app:layout_constraintVertical_bias="0.021" />
 
     <ImageButton
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
 
         android:layout_marginBottom="8dp"
@@ -59,7 +63,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/goku"
-        android:id="@+id/ibtgoku"
+        android:id="@+id/ibtngoku"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -68,90 +72,87 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:layout_width="120dp"
+        android:id="@+id/ibtnham"
+        android:layout_width="110dp"
         android:layout_height="120dp"
-
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/hamilton"
-        android:id="@+id/ibtham"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <ImageButton
-        android:layout_width="120dp"
+        android:id="@+id/ibtnmessi"
+        android:layout_width="110dp"
         android:layout_height="120dp"
-
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/messi"
-        android:id="@+id/ibtmessi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.996"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <ImageButton
+        android:id="@+id/ibtnmia"
         android:layout_width="120dp"
-        android:layout_height="120dp"
 
+        android:layout_height="120dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="264dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/mia"
-        android:id="@+id/ibtnmia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.597" />
 
     <ImageButton
-        android:layout_width="115dp"
+        android:id="@+id/ibtnron"
+        android:layout_width="110dp"
         android:layout_height="120dp"
-
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/ronaldo"
-        android:id="@+id/ibtnron"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <ImageButton
-        android:layout_width="120dp"
+        android:id="@+id/ibtnvenom"
+        android:layout_width="110dp"
         android:layout_height="120dp"
-
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/venom"
-        android:id="@+id/ibtnvenom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+        app:layout_constraintVertical_bias="0.597" />
 
     <ImageButton
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:id="@+id/ibtnwol"
 

@@ -12,7 +12,6 @@
     <string name="pregunta_i">¿Es femenino?</string>
     <string name="var_pregunta_t1">pregunta</string>
     <string name="var_usuario_extra">usuario</string>
-    <string name="acercade">Esta aplicación tiene un diseño sencillo para el control de dispositivos externos mediante bluetoot</string>
     <string name="bienvenido">Bienvenido al juego</string>
     <string name="modo_extremo">Modo EXTREMO</string>
     <string name="crees_saberlo_todo">¿Crees saberlo todo?</string>
@@ -23,5 +22,14 @@
     <string name="ironman">Ironman</string>
     <string name="capame">Captain America</string>
     <string name="deadpool">Deadpool</string>
+    <string name="woldes">Personaje ficticio, superhéroe de Marvel Comics, miembro de los X-Men. Él es uno de los personajes más conocidos del universo Marvel.</string>
+    <string name="deadpoodes">Es un personaje ficticio, mercenario, supervillano y antihéroe, que aparece en los cómics publicados por Marvel Comics. Creado por el artista Rob Liefeld y el escritor Fabian Nicieza. Deadpool apareció por primera vez en New Mutants (vol. 1) #98 (1991).</string>
+    <string name="gokudes">Son Gokū (孫(そん) 悟空(ごくう)?) es el protagonista del manga y anime Dragon Ball, creado por Akira Toriyama. Al comienzo de la historia, Gokū aparece como un niño artista marcial con cola de mono y fuerza sobrehumana, pero más adelante se revela que es un extraterrestre de la raza ficticia saiyajin, y que su nombre original es Kakarotto (カカロット?)</string>
+    <string name="hamiltondes">Es un piloto británico de automovilismo. En Fórmula 1 desde 2007 hasta 2012, fue piloto de la escudería McLaren, con la cual fue campeón en 2008 y subcampeón en 2007. A partir de 2013, se convirtió en piloto de Mercedes, resultando campeón en 2014, 2015 y 2017, y subcampeón en 2016. </string>
+    <string name="ronaldodes">Es un futbolista portugués que juega como delantero en el Real Madrid Club de Fútbol de la Primera División de España y en la selección de Portugal, de la que es capitán. Identificado con el numerónimo CR7,  considerado con frecuencia como el mejor, más completo futbolista y goleador del mundo, y uno de los mejores de todos los tiempos, por un elevado número de personas y prensa vinculadas al deporte, así como también una de las figuras más mediáticas de su generación. Es, con 450 goles, el máximo goleador histórico del Real Madrid Club de Fútbol,  consiguiéndolo en siete temporadas en el club.</string>
+    <string name="messides">Considerado con frecuencia el mejor jugador del mundo,y uno de los mejores de todos los tiempos,es el primer futbolista en la historia que ha ganado, entre otras distinciones, cinco veces el Balón de Oro un Balón de Oro y cuatro FIFA Balón de Oro, obteniendo los cuatro primeros de forma consecutiva; además de recibir cinco Botas de Oro.​Con el Barcelona ha ganado 32 títulos, entre ellos, nueve de La Liga y cuatro de la Liga de Campeones de la UEFA, así como seis títulos de la Copa del Rey.</string>
+    <string name="miades">Mia Khalifa se hizo famosa en 2014 como actriz porno. Con 21 años era la reina de la industria y durante dos años se mantuvo en ese mundo, hasta que decidió dejarlo y realizar el que era su verdadero sueño: convertirse en comentarista deportiva.La actriz de origen libanés dijo a mediados de 2016 que dejaría la industria pornográfica para dedicarse a ser comentarista deportiva. "Quiero promover el deporte. Quiero promover lo increíble que es Maryland (su ciudad natal), lo magnífico que es Washington DC, y lo grande que es esta ciudad, porque es mi hogar".</string>
+    <string name="bradydes">Es un jugador profesional estadounidense de fútbol americano. Juega en la posición de quarterback y su actual equipo son los New England Patriots de la National Football League (NFL).Debido a su excelente rendimiento como jugador en la temporada regular y la postemporada (tres premios al jugador más valioso (MVP) de la NFL (2007, 2010,2017) y cuatro Super Bowl MVP), ha sido reconocido por diversos medios como uno de los mejores quarterback de todos los tiempos, incluso para muchos el mejor de todos.</string>
+    <string name="venomdes">Venom, es un personaje ficticio del universo Marvel, creado por el historietista David Michelinie y el artista canadiense Todd McFarlane para la editorial estadounidense Marvel Comics.Es uno de los más despiadados y peligrosos personajes del universo Marvel y uno de los principales enemigos de Spider-Man.</string>
 
 </resources>
