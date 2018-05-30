@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ConexionSQLiteHelper conn=new ConexionSQLiteHelper(this,"bd_usuarios",null, 1);
+
         btnIniciaJuego = (Button)findViewById(R.id.btnIniciaJuego);
         btnIniciaJuego.setOnClickListener(onClickBuscador);
 
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     public View.OnClickListener onClickModoExtremo = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intentModoExtremo = new Intent(getApplicationContext(), Buscador.class);
+            Intent intentModoExtremo = new Intent(getApplicationContext(), RegistroUsuarios.class);
             startActivity(intentModoExtremo);
         }
     };
