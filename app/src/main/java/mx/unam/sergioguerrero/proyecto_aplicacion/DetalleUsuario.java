@@ -1,5 +1,6 @@
 package mx.unam.sergioguerrero.proyecto_aplicacion;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -13,6 +14,7 @@ public class DetalleUsuario extends AppCompatActivity {
 
     TextView campoId, campoNombre, campoPregunta;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,15 +25,16 @@ public class DetalleUsuario extends AppCompatActivity {
         campoPregunta = (TextView) findViewById(R.id.campoPregunta);
 
         Bundle objetoEnviado=getIntent().getExtras();
-        Usuario user=null;
+        Usuario user;
 
-        if(objetoEnviado!=null){
-            user= (Usuario) objetoEnviado.getSerializable("usuario");
-            campoId.setText(user.getId().toString());
-            campoNombre.setText(user.getNombre().toString());
-            campoPregunta.setText(user.getPregunta().toString());
+        //if(objetoEnviado!=null){
+        assert objetoEnviado != null;
+        user= (Usuario) objetoEnviado.getSerializable("usuario");
+        campoId.setText(user.getId().toString());
+        campoNombre.setText(user.getNombre().toString());
+        campoPregunta.setText(user.getPregunta().toString());
 
-        }
+        //}
 
     }
 }

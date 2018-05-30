@@ -38,19 +38,19 @@
         android:id="@+id/campoNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cristian David Henao"
+        android:text="Sergio Gil"
         android:layout_marginBottom="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="telefono"
+        android:text="pregunta"
         android:textStyle="bold"
         android:textSize="18sp"/>
 
 
     <TextView
-        android:id="@+id/campoTelefono"
+        android:id="@+id/campoPregunta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="75845682"
