@@ -32,4 +32,16 @@
     <string name="bradydes">Es un jugador profesional estadounidense de fútbol americano. Juega en la posición de quarterback y su actual equipo son los New England Patriots de la National Football League (NFL).Debido a su excelente rendimiento como jugador en la temporada regular y la postemporada (tres premios al jugador más valioso (MVP) de la NFL (2007, 2010,2017) y cuatro Super Bowl MVP), ha sido reconocido por diversos medios como uno de los mejores quarterback de todos los tiempos, incluso para muchos el mejor de todos.</string>
     <string name="venomdes">Venom, es un personaje ficticio del universo Marvel, creado por el historietista David Michelinie y el artista canadiense Todd McFarlane para la editorial estadounidense Marvel Comics.Es uno de los más despiadados y peligrosos personajes del universo Marvel y uno de los principales enemigos de Spider-Man.</string>
 
+    <string name="p1">¿tu personaje vuela?</string>
+    <string name="p2">¿tu personaje tiene mascara?</string>
+    <string name="p3">¿tu personaje pertenece a un comic?</string>
+    <string name="p4">¿tu personaje tiene cabello largo?</string>
+    <string name="p5">¿tu personaje usa capa?</string>
+    <string name="p6">¿tu personaje viene de un comic?</string>
+    <string name="p7">¿....?</string>
+    <string name="p8">¿..?</string>
+    <string name="p9">¿...?</string>
+    <string name="p10">¿.?</string>
+
+
 </resources>
