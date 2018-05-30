@@ -15,7 +15,8 @@
         android:orientation="horizontal"
         android:weightSum="1"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/documentoId"
