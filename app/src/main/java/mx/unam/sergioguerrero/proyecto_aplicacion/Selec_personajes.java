@@ -37,12 +37,10 @@ public class Selec_personajes extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intentIniciarSesion = new Intent(getApplicationContext(), AcercaDeDialogo.class);
+                intentIniciarSesion.putExtra("usuario",edtUsuario.getText().toString());
+
+                intentIniciarSesion.putExtra("personaje",select.getText().toString());
                 startActivity(intentIniciarSesion);
-                //String Usuario=edtUsuario.getText().toString();
-                //String personajeSeleccionado=select.getText().toString();
-               //Usuario.compareTo("usuario");
-               intentIniciarSesion.putExtra("usuario",edtUsuario.getText().toString());
-               intentIniciarSesion.putExtra("personaje",select.getText().toString());
             }
         });
 
