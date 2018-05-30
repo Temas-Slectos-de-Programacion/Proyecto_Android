@@ -36,7 +36,7 @@ public class Selec_personajes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intentIniciarSesion = new Intent(getApplicationContext(), AcercaDeDialogo.class);
+                Intent intentIniciarSesion = new Intent(getApplicationContext(), Tablero.class);
                 intentIniciarSesion.putExtra("usuario",edtUsuario.getText().toString());
 
                 intentIniciarSesion.putExtra("personaje",select.getText().toString());

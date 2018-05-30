@@ -48,7 +48,7 @@ public class ConsultarListaListView extends AppCompatActivity {
 
         consultarListaPersonas();
 
-        ArrayAdapter<String> adaptador=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,listaInformacion);
+        ArrayAdapter adaptador=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,listaInformacion);
         listViewPersonas.setAdapter(adaptador);
 
         listViewPersonas.setOnItemClickListener(new AdapterView.OnItemClickListener() {

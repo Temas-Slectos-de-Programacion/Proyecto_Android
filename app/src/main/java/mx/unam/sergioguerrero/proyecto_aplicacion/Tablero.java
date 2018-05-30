@@ -59,27 +59,27 @@ public class Tablero extends AppCompatActivity {
             case "Spiderman" :
             {
                 personaje.setImageResource(R.drawable.spiderman1);
-            }
+            }break;
             case "Superman":
             {
                 personaje.setImageResource(R.drawable.superman1);
-            }
+            }break;
             case "Ironman":
             {
                 personaje.setImageResource(R.drawable.ironman);
-            }
+            }break;
             case "Captain America":
             {
 
-            }
+            }break;
             case "Deadpool":
             {
                 personaje.setImageResource(R.drawable.deadpool1);
-            }
+            }break;
             case "Venom":
             {
                 personaje.setImageResource(R.drawable.venom);
-            }
+            }break;
 
 
         }

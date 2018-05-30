@@ -11,5 +11,7 @@ public class Utilidades {
     public static final String CAMPO_NOMBRE = "nombre";
     public static final String CAMPO_PREGUNTA = "pregunta";
 
-    public static final String CREAR_TABLA_USUARIO ="CREATE_TABLE" + TABLA_USUARIO + "("+CAMPO_ID+" INTEGER, "+CAMPO_NOMBRE+" TEXT, "+CAMPO_PREGUNTA+" TEXT )";
+    public static final String CREAR_TABLA_USUARIO="CREATE TABLE " +
+            ""+TABLA_USUARIO+" ("+CAMPO_ID+" " +
+            "INTEGER, "+CAMPO_NOMBRE+" TEXT,"+CAMPO_PREGUNTA+" TEXT)";
 }
